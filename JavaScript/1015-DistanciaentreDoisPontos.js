@@ -1,0 +1,10 @@
+var input = require("fs").readFileSync("stdin", "utf8");
+var lines = input.split("\n");
+var line1 = lines.shift().split(" ");
+var line2 = lines.shift().split(" ");
+var x1 = parseFloat(line1.shift());
+var y1 = parseFloat(line1.shift());
+var x2 = parseFloat(line2.shift());
+var y2 = parseFloat(line2.shift());
+dis=Math.sqrt(((x2-x1)**2)+((y2-y1)**2));
+console.log(`${dis.toFixed(4)}`);
