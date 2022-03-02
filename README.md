@@ -1,8 +1,6 @@
 # ✔ URI-Online-Judge ✔
 
-## **Submissões aceitas**
-
-&nbsp;
+## **Submissões aceitas:**
 
 - [C++](/LinguagemC/);
 - [Python](/Python/);
